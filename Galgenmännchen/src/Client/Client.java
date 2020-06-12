@@ -4,9 +4,9 @@ import java.rmi.server.UnicastRemoteObject;
 import java.rmi.Naming;
 
 /**
- * Erbt ebenfalls von UnicastRemoteObject um Anfragen entgegennehmen zu können. Beschreibt, 
- * was genau die Methoden aus dem Interface können soll und arbeitet mit einem RunClient
- * Objekt, der u.A. die Oberfläche des Nutzers darstellt.
+ * Erbt ebenfalls von UnicastRemoteObject um Anfragen entgegennehmen zu kÃ¶nnen. Beschreibt, 
+ * was genau die Methoden aus dem Interface kÃ¶nnen soll und arbeitet mit einem RunClient
+ * Objekt, der u.A. die OberflÃ¤che des Nutzers darstellt
  *
  */
 public class Client extends UnicastRemoteObject implements ClientInterface {
@@ -16,7 +16,7 @@ public class Client extends UnicastRemoteObject implements ClientInterface {
 	}
 
 	/**
-	 * Konstruktor dem ein runClient Objekt übergeben wird
+	 * Konstruktor dem ein runClient Objekt Ã¼bergeben wird
 	 * @param runClient
 	 * @throws RemoteException
 	 */
